@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#section {
+    width:2000px;
+height:2000;
+    float:left;
+    padding:10px;
+text-align:center;
+background-color:#1a75ff;
+border: 5px solid gray;
+float:left;
+
+}
+
+
+}
+
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>Mphasis Feedback Portal</h1>
+</div>
+
+
+<div id="section">
+<form action="validate.php" onsubmit="return validate()">
+<h1>Employee Login</h1>
+			<p>
+				<label><b>EmpId:<b> </label>
+				<input type="text" id="txtuser"name="txtuser" />
+			</p>
+			<p>
+			<label>Password: </label>
+			<input type="password" id="txtpass" name="txtpass" />
+			</p>
+			<p>
+				<input type="submit" value="Login" />
+				<input type="reset" value="Clear" />
+			</p>
+		</form>
+
+</div>
+
+
+
+
+</body>
+</html>
